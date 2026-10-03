@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Calculator card body (centered 56x66dp in 108dp canvas) -->
+    <path
+        android:pathData="M32,24 h44 a12,12 0 0 1 12,12 v48 a12,12 0 0 1 -12,12 h-44 a12,12 0 0 1 -12,-12 v-48 a12,12 0 0 1 12,-12 z"
+        android:fillColor="#1E1C38"
+        android:strokeWidth="1.5"
+        android:strokeColor="#3D3868" />
+
+    <!-- Screen display area -->
+    <path
+        android:pathData="M27,31 h54 a5,5 0 0 1 5,5 v12 a5,5 0 0 1 -5,5 h-54 a5,5 0 0 1 -5,-5 v-12 a5,5 0 0 1 5,-5 z"
+        android:fillColor="#121024" />
+
+    <!-- Screen expression indicator dots/lines -->
+    <path
+        android:pathData="M33,39 h16"
+        android:strokeWidth="2.5"
+        android:strokeColor="#7C5CFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M65,45 h12"
+        android:strokeWidth="3.5"
+        android:strokeColor="#A78BFA"
+        android:strokeLineCap="round" />
+
+    <!-- Keypad grid elements -->
+    <path
+        android:pathData="M28,60 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#29264E" />
+    <path
+        android:pathData="M48,60 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#29264E" />
+    <path
+        android:pathData="M68,60 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#29264E" />
+
+    <path
+        android:pathData="M28,76 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#29264E" />
+    <path
+        android:pathData="M48,76 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#29264E" />
+
+    <!-- Prominent Action Equals / X Button (Purple Accent) -->
+    <path
+        android:pathData="M68,76 h10 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-10 a4,4 0 0 1 -4,-4 v-4 a4,4 0 0 1 4,-4 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="68"
+                android:startY="76"
+                android:endX="82"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C5CFF" />
+                <item android:offset="1.0" android:color="#6C4DFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized 'X' and '=' inside key -->
+    <path
+        android:pathData="M71,80 h6 M71,84 h6"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

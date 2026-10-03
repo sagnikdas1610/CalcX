@@ -1,0 +1,6 @@
+{
+  "name": "CalcX",
+  "description": "Calculate Everything - Modern Gen-Z all-in-one calculator featuring basic, scientific, unit conversion, equation solver, finance, and modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
